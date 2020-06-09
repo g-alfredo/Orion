@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+.sezione-immagini{
+	display: flex; 
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 25px;
+}
+
+.product-area{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid transparent;
+	border-radius: 6%;
+	padding: 10px;
+}
+
+.product-area:hover{
+	border: solid #868686;
+	border-radius: 6%;
+	padding: 10px;
+}
+
+.product-image-homepage{
+	width: 200px;
+	height: auto;
+}

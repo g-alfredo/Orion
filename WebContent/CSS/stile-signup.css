@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: Arial;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2fcff;
+}
+
+#signUpForm{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid grey;
+	border-radius: 8%;
+	padding: 20px 50px 20px 50px;
+}
+
+label{
+	padding: 8px;
+	text-align:center;
+}
+
+input{
+	width: 200px;
+}
+
+button{
+	margin: 20px; 
+	padding: 10px; 
+	background: #ddd; 
+	font-size: 17px; 
+	border: 2px solid;
+	border-color: #345059; 
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: #ccc;
+}
+
+button:active{
+	background-color: #848484;
+}

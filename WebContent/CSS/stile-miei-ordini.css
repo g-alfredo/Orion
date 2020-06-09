@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+table a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+table a:hover{
+	color: #C36437;
+}
+
+.head-table{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 15px;
+}

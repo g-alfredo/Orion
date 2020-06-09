@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.sezione-immagini-search{
+	margin: 25px;
+	text-align: center;
+}
+
+.product-area-search{
+	display: flex;
+	align-items:center;
+	border: 2px solid transparent;
+	border-radius: 2%;
+	padding: 10px;
+	flex-direction:row;
+	text-decoration:none; 
+	color:black;
+	width: 90%;
+}
+
+.product-area-search:hover{
+	border: 2px solid #868686;
+	border-radius: 2%;
+	padding: 10px;
+}
+
+.product-image-search{
+	width: 200px;
+	height: auto;
+}
+
+}

@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+#elimina-recensione{
+	font-size: 15px;
+	text-decoration: none;
+	padding: 10px;
+	color: #1D51CF;
+	border: none;
+	background-color: transparent;
+}
+
+#elimina-recensione:hover{
+	color: #FC0404;
+	cursor: pointer;
+}
+
+#carrello-button{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px 10px 20px; 
+	text-align: center; 
+	border-radius: 5px; 
+	border: 1px solid #B25C47;
+	background-color: #F6AE4A;
+	font-size: initial;
+	cursor: pointer;
+}
+
+#carrello-button:hover{
+	background-color: #D07833;
+}
+
+#lista-button{
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px 10px 20px; 
+	text-align: center; 
+	border-radius: 5px; 
+	border: 1px solid #7CB4B4;
+	background-color: #E4FCF4;
+}
+
+#lista-button:hover{
+	background-color: #7CB4B4;
+}
+
+.product-image-and-title{
+	margin: 30px 0px 30px 0px; 
+	display: flex; 
+	justify-content: space-evenly;
+}
+
+.product-image{
+	width: 300px; 
+	height: auto;
+}
+
+.product-title-and-price{
+	display:flex; 
+	flex-direction: column;
+	width:500px;
+}
+
+@media screen and (max-width: 600px) {
+	.product-image-and-title{
+		margin: 30px; 
+		flex-direction: column;
+		vertical-align: middle;
+
+	}
+	.product-image{
+		margin: initial;
+		width: 230px;
+		height: auto;
+	}
+	
+	.product-title-and-price{
+		margin: initial;
+		width:100%;
+	}
+	
+	.immagini-dei-bottoni{
+		display:none;
+	}
+}
